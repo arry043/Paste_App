@@ -41,7 +41,6 @@ const Home = () => {
     setTitle("");
     setValue("");
     setSearchParams({});
-    // navigate("/");
   };
 
   useEffect(() => {
