@@ -8,7 +8,7 @@ import { useSearchParams } from "react-router-dom";
 const Home = () => {
   const [value, setValue] = useState("");
   const [title, setTitle] = useState("");
-  const [searchParams, setSearchParams] = useSearchParams(); // Destructure useSearchParams
+  const [searchParams, setSearchParams] = useSearchParams(); // Destructure useSearchParam
   const pasteId = searchParams.get("pasteId"); // Get pasteId from the search params
   const pastes = useSelector((state) => state.paste.pastes);
   const dispatch = useDispatch();
